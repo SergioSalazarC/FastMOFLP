@@ -18,14 +18,14 @@ The Multiple Obnoxious Facility Location Problem (MOFLP) is one of the most stud
 </tr>
 </table>
 
-#### Oscar Cordón
+#### Abraham Duarte
 <table>
 <tr>
 <td>
 
-**Institution:** [Andalusian Research Institute in Data Science and Computational Intelligence (DaSCI) and Dept. of Computer Science and Artificial Intelligence, University of Granada](https://www.ugr.es/personal/oscar-cordon-garcia)  
-**Email:** [ocordon@decsai.ugr.es](mailto:ocordon@decsai.ugr.es)  
-**ORCID:** [0000-0001-5112-5629](https://orcid.org/0000-0001-5112-5629)  
+**Institution:** [Dept. of Computer Science and Statistics, Universidad Rey Juan Carlos](https://servicios.urjc.es/pdi/ver/abraham.duarte)  
+**Email:** [abraham.duarte@urjc.es](mailto:abraham.duarte@urjc.es)  
+**ORCID:** [0000-0002-4532-3124](https://orcid.org/0000-0002-4532-3124)  
 
 </td>
 </tr>
@@ -46,16 +46,15 @@ The Multiple Obnoxious Facility Location Problem (MOFLP) is one of the most stud
   
 ## Benchmarks
 
-Benchmarks information could be obtained in https://doi.org/10.1016/j.omega.2022.102639.
+The coordinates of the benchmark instances can be found in the following file, by selecting the first 100 or 1000 entries: [CHOORDS](https://github.com/SergioSalazarC/FastMOFLP/blob/main/Voronoi/Instances/FacilityChoords)
 
 
 ## Code
 
-Final experiment can be locate in this  java [CODE](https://github.com/SergioSalazarC/pMedianVariableProblem/blob/master/src/Experimentos/MainMemetico_modified.java) file. This shows a general framework to solve any of the SOTA benchmark instances, in this case is setted to solve n=100 and p=2 instance.
+Final experiment can be locate in this  java [CODE](https://github.com/SergioSalazarC/FastMOFLP/blob/main/Voronoi/src/MOFLP/Main.java) file. This shows a general framework to solve any instance selecting n and D parameters with p values from 2 to 20.
 
 ### Requirements and Dependencies
-- Java 11
-- Gurobi 11.0.3 ([Java Package](https://docs.gurobi.com/projects/optimizer/en/current/reference/java.html))
+- Java 21
 
 
 [//]: <> (## Executing)
@@ -65,25 +64,14 @@ Final experiment can be locate in this  java [CODE](https://github.com/SergioSal
 ## Cite
 
 Consider citing our paper if used in your own work:
-(Fill with the references to your own published work)
 
 
 ### DOI
-[https://doi.org/j.asoc.2025.113401](https://doi.org/10.1016/j.asoc.2025.113401)
+
 ### Zenodo
-[https://doi.org/10.5281/zenodo.15689089](https://doi.org/10.5281/zenodo.15689089)
+
 ### Bibtex
 ```bibtex
-@article{salazar2025113401,
-title = {Efficient heuristics for the obnoxious planar p-median problem with variable sizes},
-journal = {Applied Soft Computing},
-volume = {181},
-pages = {113401},
-year = {2025},
-issn = {1568-4946},
-doi = {https://doi.org/10.1016/j.asoc.2025.113401},
-url = {https://www.sciencedirect.com/science/article/pii/S1568494625007124},
-author = {Sergio Salazar and Oscar Cordón and J. Manuel Colmenar}
-}
+@article{}
 ```
 
