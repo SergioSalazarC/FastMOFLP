@@ -69,7 +69,7 @@ Consider citing our paper if used in your own work:
 ### DOI
 
 ### Zenodo
-
+[![DOI](10.5281/zenodo.16095882)
 ### Bibtex
 ```bibtex
 @article{}
