@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Irace">
+    <output-path>$PROJECT_DIR$/out/artifacts/Irace</output-path>
+    <root id="archive" name="MOFLP.jar">
+      <element id="module-output" name="MOFLP" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/3rdparty/stdlib-package.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Voronoi" />
+    </root>
+  </artifact>
+</component>
