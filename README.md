@@ -1,4 +1,4 @@
-# [Efficient heuristics for the obnoxious planar p-median problem with variable sizes](https://doi.org/XXXXX)
+# [A fast metaheuristic approach for the planar multiple obnoxious facility location problem]([https://doi.org/XXXXX](https://doi.org/10.1111/itor.70087))
 [![DOI](https://img.shields.io/badge/DOI-10.1111%2Fitor.70087-blue.svg)](https://doi.org/10.1111/itor.70087)
 ## Abstract
 The Multiple Obnoxious Facility Location Problem (MOFLP) is one of the most studied problems in the literature of the obnoxious facility location problems family. In this work, we propose an alternative algorithmic approach for this problem, based on an efficient metaheuristic procedure over a discretization of the plane based on Voronoi diagrams, helped by a local search able to traverse the continuous space. To this aim, our algorithmic proposal first begins with the implementation of a Greedy Randomized Adaptive Search Procedure (GRASP) method whose improvement phase is implemented by a General Variable Neighborhood Search (GVNS) procedure. The GVNS is supported by two local search methods that allow the algorithm to escape the initial discretization and find good solutions in short execution times. The results show that the proposed algorithm achieves the best results regarding the objective function value, deviation, and number of best results in relation to the state of the art. These results are further confirmed by conducting non-parametric statistical tests.
@@ -74,6 +74,13 @@ Consider citing our paper if used in your own work:
 
 ### Bibtex
 ```bibtex
-@article{}
+@article{salazar70087,
+title = {A fast metaheuristic approach for the planar multiple obnoxious facility location problem},
+journal = {International Transactions in Operational Research},
+year = {2025},
+issn = {1475-3995},
+doi = {https://doi.org/10.1111/itor.70087},
+author = {Sergio Salazar and A. Duarte and J. Manuel Colmenar}
+}
 ```
 
